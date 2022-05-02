@@ -1,0 +1,17 @@
+{
+  "orlando": {
+    "state": "Florida",
+    "airport": "Orlando International",
+    "tz": "EST"
+  },
+  "tampa": {
+    "state": "Florida",
+    "airport": "Tampa International",
+    "tz": "EST"
+  },
+  "atlanta": {
+    "state": "Georgia",
+    "airport": "Atlanta International",
+    "tz": "EST"
+  }
+}

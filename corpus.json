@@ -1,0 +1,27 @@
+{
+  "name": "Air Travel",
+  "locale": "en",
+  "contextData": "./city.json",
+  "data": [
+    {
+      "intent": "user.wantstotravel",
+      "utterances": [
+        "I want to fly to @city",
+        "I need to fly out of @city"
+      ],
+      "answers": [
+        "{{ city }} has {{ _data[entities.city.option].airport }}",
+        "You should! Where would you like to go?"
+      ] 
+    }
+  ],
+  "entities": {
+      "city": {
+          "options": {
+              "orlando": ["orlando"],
+              "tampa": ["tampa"],
+              "atlanta": ["atlanta"]
+          }
+      }
+  }
+}
